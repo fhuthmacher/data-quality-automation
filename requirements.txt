@@ -1,0 +1,8 @@
+boto3
+pandas
+python-dotenv
+sqlparse
+SQLAlchemy
+psycopg2-binary
+xmltodict
+jinja2

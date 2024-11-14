@@ -1,0 +1,22 @@
+{
+  "name": "bedrock_dq_fix",
+  "displayName": "Fix detected data quality issue",
+  "description": "Take action to fix detected data quality issues.",
+  "functionName": "bedrock_dq_fix",
+  "parameters": [
+    {
+      "name": "llm",
+      "displayName": "LLM",
+      "description": "LLM that will be used to fix the data quality issue",
+      "isOptional": true,
+      "type": "string"
+    },
+    {
+      "name": "prompt_template",
+      "displayName": "Prompt Template",
+      "description": "LLM Prompt Template that will be used to fix the data quality issue",
+      "isOptional": true,
+      "type": "string"
+    }
+  ]
+}
